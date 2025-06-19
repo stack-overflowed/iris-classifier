@@ -20,3 +20,9 @@ Run the app
 `python app.py`
 
 Open browser at `http://127.0.0.1:5000` to see the app.
+
+## Note
+The model achieves 100% accuracy on the test set.
+This is not unusual for the Iris dataset, which is small, clean, and well-separated.
+Additionally, Decision Tree classifiers are capable of perfectly splitting such structured data.
+However, this level of accuracy would likely not generalize to more complex, real-world datasets.
