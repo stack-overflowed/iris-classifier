@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Iris Species Predictor</title>
+</head>
+<body>
+    <h2>Iris Flower Classifier</h2>
+    <form method="post">
+        <label>Sepal Length:</label><br>
+        <input type="number" step="0.01" name="sepal_length" required><br><br>
+
+        <label>Sepal Width:</label><br>
+        <input type="number" step="0.01" name="sepal_width" required><br><br>
+
+        <label>Petal Length:</label><br>
+        <input type="number" step="0.01" name="petal_length" required><br><br>
+
+        <label>Petal Width:</label><br>
+        <input type="number" step="0.01" name="petal_width" required><br><br>
+
+        <input type="submit" value="Predict">
+    </form>
+
+    {% if prediction %}
+        <h3>Predicted Species: {{ prediction }}</h3>
+    {% endif %}
+</body>
+</html>
