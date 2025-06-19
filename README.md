@@ -5,7 +5,7 @@ A simple machine learning project that predicts the species of an Iris flower us
 
 ## About the Dataset
 
-he dataset used is the classic [Iris dataset](https://en.wikipedia.org/wiki/Iris_flower_data_set), which includes:
+he dataset used is the classic [Iris Species dataset](https://www.kaggle.com/datasets/uciml/iris), which includes:
 - 150 samples
 - 3 species: *Iris-setosa*, *Iris-versicolor*, *Iris-virginica*
 - 4 features: sepal length, sepal width, petal length, petal width
